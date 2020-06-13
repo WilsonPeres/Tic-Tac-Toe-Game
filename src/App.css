@@ -73,9 +73,9 @@ li {
   margin: 0.5rem 1rem;
 }
 @media only screen 
-  and (min-device-width: 414px) 
+  and (max-device-width: 414px) 
   and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
+  and (-webkit-min-device-pixel-ratio: 2) { 
 
     .info-wrapper{
       width: 270px;
@@ -102,7 +102,4 @@ li {
       font-size: 40px;
       font-weight: bold;
     }
-
-
-
 }
